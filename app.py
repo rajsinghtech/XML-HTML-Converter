@@ -97,4 +97,4 @@ def uploaded_file(filename):
 if __name__ == "__main__":
     if not os.path.exists(UPLOAD_FOLDER):
         os.makedirs(UPLOAD_FOLDER)
-    app.run(port=8069)
+    app.run(host='0.0.0.0', port=8069)
