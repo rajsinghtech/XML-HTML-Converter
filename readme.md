@@ -19,8 +19,11 @@ These instructions will get you a copy of the project up and running on your loc
 ### Running the Application
 
 1. To start the server, run the following command in your terminal:
+    ```bash
+   docker-compose up 
+   ```
 
-2. Open your web browser and visit `http://localhost:8080`. 
+2. Open your web browser and visit `http://localhost:8069`. 
 
 3. Upload the XML and XSL files using the form on the webpage. The server will transform the XML to HTML using the XSL, save the HTML file, and redirect your browser to the newly created HTML file.
 
